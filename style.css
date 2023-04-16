@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Mozzard&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mazzard:wght@400;700&display=swap');
+
+
 
 * {
     margin: 0;
@@ -14,7 +16,7 @@
 }
 
 body {
-    font: 'Mozzard';
+    font-family: 'Heebo', sans-serif;
 }
 
 a {
@@ -22,25 +24,29 @@ a {
     top: 20px;
     font-size: 1.3rem;
     margin: 0 40px;
-    color: var(--color-background);
     text-decoration: none;
+    color: var(--color-background);
 }
 
-a:hover {
-    color: var(--color-primary);
-}
 
-.nav-items:first-child {
+
+.nav-items a:first-child {
     color: white;
 }
 
 .hero {
-    padding-top: 30px;
-    background-color: black;
+    padding: 0 80px;
+    overflow: auto;
+    /* padding-top: 30px; */
+    background-image: url('images/Hero.jpg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+
 }
 
 .nav {
-    padding: 0 80px;
+    margin-top: 40px;
+
     display: flex;
     justify-content: space-between;
 }
@@ -58,10 +64,35 @@ a:hover {
 }
 
 .nav-items div {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
     margin-left: 20px;
     font-weight: 700;
     border-radius: 20px;
     color: var(--color-primary);
     background-color: white;
     padding: 20px 30px;
+}
+
+.hero-heading {
+    font-size: 5rem;
+    max-width: 50%;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin: 70px auto;
+}
+
+.hero-text {
+    font-size: 1.5rem;
+    margin-bottom: 80px;
+    text-align: center;
+    color: var(--color-background);
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
 }
