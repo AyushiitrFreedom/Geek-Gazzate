@@ -251,7 +251,7 @@ a {
     text-align: center;
 }
 
-.testimonial-text {
+.testimonials .text {
     margin-bottom: 70px;
 }
 
@@ -261,9 +261,11 @@ a {
 }
 
 .testimonials-card {
+    border-radius: 30px;
     padding: 40px;
     margin: 0 30px;
     background-color: var(--color-background);
+    margin-bottom: 60px;
 }
 
 .testimonial-cards img {
@@ -302,6 +304,8 @@ a {
     letter-spacing: .8px;
     font-size: .8rem;
 }
+
+
 
 .footer {
     display: flex;
